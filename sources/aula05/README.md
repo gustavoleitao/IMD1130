@@ -3,20 +3,20 @@
 Primeiramente, crie uma imagem Docker através do comando a seguir:
 
 ```shell
-$ docker build -t aula04-nosql .
+$ docker build -t aula05-nosql .
 ```
-> aula04-nosql será o nome da imagem a ser gerada
+> aula05-nosql será o nome da imagem a ser gerada
 
 Após a criação da imagem, execute o seguinte comando para iniciar:
 
 ```shell
-$ docker run -d aula04-nosql
+$ docker run -d aula05-nosql
 ```
 
 Se desejar acessar o servidor do contêiner, é necessário criar um mapeamento de porta:
 
 ```shell
-$ docker run -p 8080:3000 -d aula03-nosql
+$ docker run -p 8080:3000 -d aula05-nosql
 ```
 
 Após isso, você poderá acessar a aplicação no navegador através do endereço: ```http://localhost:8080```
@@ -31,7 +31,7 @@ Como a aplicação é executada em um contêiner, os arquivos serão salvos no p
 Para dar um tratamento mais dedicado aos dados, é necessário utilizar um volume. Para isso, criar um contêiner realizando um mapeamento de volume, você pode usar o comando abaixo:
 
 ```shell
-$ docker run -d -p 8080:3000 -v /tmp/data-log/:/tmp/ aula04-nosql
+$ docker run -d -p 8080:3000 -v /tmp/data-log/:/tmp/ aula05-nosql
 ```
 
 Executando com o comando acima, os arquivos da pasta /tmp do contêiner serão mapeados para a pasta /tmp/data-log do host. Dessa forma, mesmo que o contêiner seja removido, os dados permanecerão salvos no host.
@@ -45,7 +45,7 @@ $ docker volume create dados-nosql
 Em seguida execute o comando abaixo, para utilizar o volume recém criado:
 
 ```shell
-$ docker run -d -p8080:3000 -v dados-nosql:/tmp/ aula04-nosql
+$ docker run -d -p8080:3000 -v dados-nosql:/tmp/ aula05-nosql
 ```
 Desta nova forma, o volume será nomeado e, portanto, mais fácil de ser gerenciado. Para mais informações sobre o volume você pode usar o comando a seguir:
 
