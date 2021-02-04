@@ -1,0 +1,16 @@
+{
+  "name": "aula06",
+  "version": "1.0.0",
+  "description": "Exemplo de conexão com Redis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo Leitão",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  }
+}
