@@ -9,7 +9,7 @@ Primeiramente, após o download, é necessário executar o seguinte comando para
 ```shell
 $ npm install
 ```
-Após instalar as dependências, execute o seguinte comando para iniciar a aplicação:
+Em seguida, execute o seguinte comando para iniciar a aplicação:
 
 ```shell
 $ npm start 
@@ -17,7 +17,7 @@ $ npm start
 
 # Como utilizar?
 
-O programa exporta as seguintes rotas http na porta 3000:
+O programa exporta as seguintes rotas na porta 3000:
 
 - /ler/:key - Realiza a leitura da chave indicada pelo parâmetro :key
-- /escrever/:key/:valor - Realiza a escrita na chave :key o valor do parâmetro da URL :valor
+- /escrever/:key/:valor - Realiza a escrita na chave :key do valor indicado no parâmetro:valor
