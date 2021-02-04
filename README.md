@@ -1,7 +1,7 @@
 # IMD1130
 Repositório contendo informações e arquivos da disciplina de banco de dados NoSql (IMD1130) do [IMD](https://imd.ufrn.br)/[UFRN](https://ufrn.br) ministrada pelo [Prof. Gustavo Leitão](https://sigaa.ufrn.br/sigaa/public/docente/portal.jsf?siape=1775264).
 
-Os atendimentos serão feitos através do Discord na segunda e quarta-feira das 08 às 10h.
+Os atendimentos serão feitos através do Discord na segundas e quartas-feira das 08 às 10h.
 
 | Aula              | Data       | Conteúdo     |   Links     |
 |-------------------|------------|--------------|--------------|

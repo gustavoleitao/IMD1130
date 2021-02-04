@@ -42,7 +42,7 @@ Uma outra alternativa é criar previamente um volume:
 $ docker volume create dados-nosql
 ```
 
-Em seguida execute o comando abaixo, para utilizar o volume recém criado:
+Em seguida execute o comando abaixo para utilizar o volume recém criado:
 
 ```shell
 $ docker run -d -p8080:3000 -v dados-nosql:/tmp/ aula05-nosql
