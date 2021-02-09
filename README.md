@@ -12,6 +12,3 @@ Os atendimentos serão feitos através do Discord na segundas e quartas-feira da
 | Aula 05          | 02/02/2021        | Introdução a tecnologia de contêiners (parte 2)  | <a href="https://github.com/gustavoleitao/IMD1130/blob/main/slides/aula05-nosql.pdf" target="_blank"><img src="https://img.shields.io/badge/-Slides-008ED2?style=flat-square&logo=adobe-acrobat-reader" /></a>  <a target="_blank" href="https://youtu.be/Fm6PCPWEErA"><img src="https://img.shields.io/badge/-Videoaula-ff0000?style=flat-square&logo=youtube"></a>               |
 | Aula 06          | 04/02/2021        | Introdução ao modelo de chave-valor com Redis  | <a href="https://github.com/gustavoleitao/IMD1130/blob/main/slides/aula06-nosql.pdf" target="_blank"><img src="https://img.shields.io/badge/-Slides-008ED2?style=flat-square&logo=adobe-acrobat-reader" /></a>   <a target="_blank" href="https://youtu.be/qfFRANSp_pg"><img src="https://img.shields.io/badge/-Videoaula-ff0000?style=flat-square&logo=youtube"></a>             |
 | Aula 07          | 09/02/2021        | Hash, Listas e Pub/Sub com Redis | <a target="_blank" href="https://youtu.be/7R2ROwBVV5E"><img src="https://img.shields.io/badge/-Videoaula-ff0000?style=flat-square&logo=youtube"></a>   |
-
-
-
