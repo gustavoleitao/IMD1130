@@ -1,0 +1,22 @@
+{
+  "name": "aula09",
+  "version": "1.0.0",
+  "description": "Exemplos de cálculo de slot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-crc": "node crc16.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redis",
+    "crc",
+    "cluster"
+  ],
+  "author": "Gustavo Leitão",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^4.22.0",
+    "node-crc16-js": "^1.0.0"
+  }
+}
