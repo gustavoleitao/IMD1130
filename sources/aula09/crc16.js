@@ -6,7 +6,7 @@ function crc16FromString(str){
 	return crc16(txtEncoded)
 }
 
-const key = 'foo'
+const key = 'key1'
 const crc = crc16FromString(key)
 const slot = crc % 16383
 

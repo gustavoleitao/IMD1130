@@ -25,12 +25,7 @@ const cluster = new Redis.Cluster(
       {
         host: "127.0.0.1",
         port: 7006,
-      },
-      {
-        host: "127.0.0.1",
-        port: 7001,
-      },
-      
+      }
     ],
     {
       natMap: {
@@ -45,7 +40,7 @@ const cluster = new Redis.Cluster(
   );
 
 const startup = async () => {
-    await cluster.set("foo", "bar");
+    await cluster.set("foo", "imd");
     const data = await cluster.get("foo");
     console.log(data)
 }
