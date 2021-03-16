@@ -1,0 +1,15 @@
+{
+  "name": "aula15",
+  "version": "1.0.0",
+  "description": "Index sample",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Gustavo Leitão",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.6.4",
+    "txtgen": "^2.2.8"
+  }
+}
