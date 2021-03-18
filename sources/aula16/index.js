@@ -2,35 +2,28 @@ const Mongo = require('./mongo')
 const { ObjectID } = require('bson')
 
 async function main() {
-    
+
     const URI = "mongodb://localhost:27017?useUnifiedTopology=true"
     const mongo = new Mongo(URI)
     await mongo.connect()
 
-    const total = 500000
-    const batchSize = 10000
-    const it = Math.floor(total / batchSize)
-
-    const doc = await mongo.find("test", "restaurants", {})
+    const cursor = await mongo.find("test", "restaurants", {})
 
     let processed = 0
     
-    while (await doc.hasNext()){
+    while (await cursor.hasNext()){
 
         if (processed % 100 === 0){
             console.log(`${processed} itens processados.`)
         }
 
-        const next = await doc.next()
+        const next = await cursor.next()
 
         if (next.address.coord.length === 2){
-            next.address.coordv2 = {
-                type: "Point",  coordinates: next.address.coord
-            }
     
             const updateDoc = {
                 $set: {
-                    "address.coordv3": {
+                    "address.coordv5": {
                         type: "Point",  coordinates: next.address.coord
                     }
                 },
@@ -45,6 +38,5 @@ async function main() {
     await mongo.close()
 
 }
-
 
 main()
