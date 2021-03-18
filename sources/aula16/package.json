@@ -1,0 +1,14 @@
+{
+  "name": "aula16",
+  "version": "1.0.0",
+  "description": "Atualiza coordenada",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Gustavo Leitão",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.6.4"
+  }
+}
